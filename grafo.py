@@ -6,7 +6,7 @@ from math import inf
 from copy import deepcopy
 
 
-class Grafo(object):
+class Grafo(object): 
 
     def __init__(self, dirigido=True):
         self.dirigido = dirigido

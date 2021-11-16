@@ -68,11 +68,6 @@ def cargarVertices(GrafoDioses):
     GrafoDioses.insertar_vertice('Hermes')
 
 
-
-
-
-
-
 def cargarAristas(GrafoDioses):
     GrafoDioses.insertar_arista(1, 'Urano', 'Cronos', data={'relacion': ['padre', 'hijo']})
     GrafoDioses.insertar_arista(1, 'Urano', 'Themis', data={'relacion': ['padre', 'hijo']})
